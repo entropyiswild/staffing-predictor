@@ -1,0 +1,101 @@
+event_id,date,venue_name,city_country,capacity,num_entrances,num_concessions,event_type,duration_hours,predicted_attendance,actual_attendance,sellout_likelihood,peak_arrival_minutes,alcohol_served,day_of_week,season,temperature_c,rain_probability,security_hours_per_1000,concessions_hours_per_1000,cleaning_hours_per_1000,ushers_hours_per_1000
+1,2022-01-17,Wembley Stadium,"London, UK",90000,12,26,Sports Game,5.3,61239,63322,0.68,133,1,Saturday,Fall,31.7,0.51,18.06,11.13,8.91,17.79
+2,2022-01-20,Wembley Stadium,"London, UK",90000,12,26,Theater,2.9,62428,57206,0.69,70,1,Sunday,Spring,24.3,0.18,11.55,13.81,8.3,18.76
+3,2022-02-20,Wembley Stadium,"London, UK",90000,12,26,Concert,3.6,68432,68753,0.76,133,1,Tuesday,Fall,19.9,0.99,15.23,11.4,10.12,12.4
+4,2022-02-25,Madison Square Garden,"New York, USA",20000,15,16,Theater,2.1,8751,9818,0.44,105,0,Friday,Summer,-4.2,0.35,10.96,10.05,6.98,19.24
+5,2022-02-28,Barclays Center,"Brooklyn, USA",19000,15,15,Sports Game,3.3,12801,12298,0.67,115,1,Thursday,Fall,23.4,0.12,19.53,13.21,10.18,13.33
+6,2022-03-23,O2 Arena,"London, UK",20000,17,17,Sports Game,4.3,10104,11360,0.51,61,1,Friday,Spring,1.6,0.52,13.46,10.08,7.34,20.93
+7,2022-03-24,Staples Center,"Los Angeles, USA",20000,13,45,Concert,3.3,17307,19718,0.87,113,1,Monday,Summer,25.1,0.2,9.77,12.17,11.24,18.35
+8,2022-04-04,Staples Center,"Los Angeles, USA",20000,13,45,Sports Game,4.2,14429,12655,0.72,54,1,Saturday,Spring,15.1,0.19,17.05,10.65,7.88,17.4
+9,2022-04-17,Wembley Stadium,"London, UK",90000,12,26,Concert,3.8,47063,52397,0.52,90,1,Monday,Winter,17.1,0.98,10.1,9.98,6.8,18.95
+10,2022-04-28,Barclays Center,"Brooklyn, USA",19000,15,15,Sports Game,4.4,7824,6894,0.41,99,1,Monday,Fall,14.8,0.65,14.77,13.43,6.72,23.39
+11,2022-04-30,Mercedes-Benz Arena,"Berlin, Germany",17000,5,13,Concert,5.3,10607,9877,0.62,54,1,Wednesday,Winter,17.5,0.64,14.29,15.37,7.93,20.22
+12,2022-05-01,Accor Arena,"Paris, France",20300,8,49,Theater,4.1,12979,11245,0.64,91,0,Tuesday,Spring,9.9,0.54,6.51,8.21,8.45,18.52
+13,2022-05-01,Sydney Opera House,"Sydney, Australia",5776,13,23,Concert,3.3,2379,2252,0.41,39,1,Saturday,Summer,13.5,0.12,10.47,10.09,8.31,32.77
+14,2022-05-12,Rod Laver Arena,"Melbourne, Australia",15000,7,11,Theater,2.1,13194,13700,0.88,45,0,Tuesday,Spring,18.9,0.81,8.27,13.31,10.13,22.21
+15,2022-05-21,Sydney Opera House,"Sydney, Australia",5776,13,23,Sports Game,4.2,5380,5567,0.93,63,1,Tuesday,Fall,20.8,0.94,13.5,15.87,9.11,16.89
+16,2022-05-21,Madison Square Garden,"New York, USA",20000,15,16,Sports Game,3.4,14624,14343,0.73,40,1,Sunday,Winter,22.1,0.76,16.53,17.46,9.21,24.92
+17,2022-05-26,Sydney Opera House,"Sydney, Australia",5776,13,23,Concert,4.6,3806,3380,0.66,145,1,Monday,Fall,30.1,0.28,15.13,10.09,4.69,16.01
+18,2022-06-04,Accor Arena,"Paris, France",20300,8,49,Concert,2.4,18429,16369,0.91,65,1,Thursday,Spring,14.9,0.4,12.62,12.67,10.58,21.68
+19,2022-06-05,Accor Arena,"Paris, France",20300,8,49,Theater,4.9,11521,12014,0.57,150,0,Saturday,Winter,25.2,0.51,9.98,11.26,9.36,17.67
+20,2022-06-25,Madison Square Garden,"New York, USA",20000,15,16,Concert,3.0,8676,9625,0.43,142,1,Friday,Spring,11.0,0.81,12.48,13.23,8.0,13.31
+21,2022-06-28,Tokyo Dome,"Tokyo, Japan",55000,5,44,Sports Game,3.5,31610,32670,0.57,43,1,Saturday,Winter,0.9,0.14,15.54,6.24,9.62,28.11
+22,2022-07-09,Tokyo Dome,"Tokyo, Japan",55000,5,44,Concert,2.1,25560,21966,0.46,127,1,Wednesday,Summer,5.8,0.51,14.86,7.87,7.03,22.75
+23,2022-07-09,Wembley Stadium,"London, UK",90000,12,26,Sports Game,2.6,83567,90000,0.93,92,1,Wednesday,Spring,16.3,0.74,14.55,11.14,9.46,15.87
+24,2022-07-13,Sydney Opera House,"Sydney, Australia",5776,13,23,Theater,4.1,3310,3390,0.57,133,0,Thursday,Winter,47.8,0.05,5.96,10.45,6.23,18.09
+25,2022-07-26,Sydney Opera House,"Sydney, Australia",5776,13,23,Theater,5.3,2786,2653,0.48,40,0,Sunday,Spring,35.5,0.92,11.98,17.28,8.54,25.9
+26,2022-07-28,Barclays Center,"Brooklyn, USA",19000,15,15,Sports Game,2.9,17942,18860,0.94,136,1,Saturday,Spring,10.3,0.45,16.02,13.39,9.69,11.64
+27,2022-08-10,Sydney Opera House,"Sydney, Australia",5776,13,23,Theater,4.9,3877,4043,0.67,50,0,Sunday,Fall,16.3,0.06,11.5,11.36,7.2,21.15
+28,2022-08-12,O2 Arena,"London, UK",20000,17,17,Concert,4.6,14032,12904,0.7,81,1,Saturday,Fall,16.5,0.9,11.74,10.71,8.92,18.5
+29,2022-08-13,Rod Laver Arena,"Melbourne, Australia",15000,7,11,Theater,4.2,11715,10116,0.78,41,0,Sunday,Spring,20.6,0.86,15.4,11.88,8.68,26.86
+30,2022-08-23,Tokyo Dome,"Tokyo, Japan",55000,5,44,Concert,4.2,24754,27593,0.45,46,1,Thursday,Fall,8.4,0.8,17.37,14.2,6.72,24.92
+31,2022-09-06,Rod Laver Arena,"Melbourne, Australia",15000,7,11,Theater,4.7,6099,5945,0.41,36,0,Friday,Spring,27.6,0.02,12.09,12.7,5.18,29.49
+32,2022-09-13,Wembley Stadium,"London, UK",90000,12,26,Concert,3.5,47993,42519,0.53,123,1,Thursday,Winter,24.5,0.32,11.31,12.09,7.6,15.64
+33,2022-09-20,Mercedes-Benz Arena,"Berlin, Germany",17000,5,13,Concert,3.3,7958,8367,0.47,127,1,Friday,Summer,35.5,0.52,14.63,11.87,8.92,22.77
+34,2022-09-25,Accor Arena,"Paris, France",20300,8,49,Theater,4.2,14697,15930,0.72,35,0,Monday,Fall,27.5,0.76,12.44,11.75,10.55,23.73
+35,2022-10-03,Rod Laver Arena,"Melbourne, Australia",15000,7,11,Theater,4.4,7385,8084,0.49,149,0,Saturday,Summer,14.3,0.22,15.87,16.73,6.98,18.11
+36,2022-10-11,Accor Arena,"Paris, France",20300,8,49,Sports Game,4.1,13230,12228,0.65,81,1,Wednesday,Winter,36.5,0.36,13.63,15.51,5.99,15.48
+37,2022-10-11,Staples Center,"Los Angeles, USA",20000,13,45,Theater,4.9,18336,20000,0.92,144,1,Friday,Spring,28.4,0.46,12.58,14.13,9.81,16.62
+38,2022-10-13,Accor Arena,"Paris, France",20300,8,49,Sports Game,2.3,8749,8831,0.43,88,1,Tuesday,Spring,7.3,0.54,19.45,10.47,6.75,17.59
+39,2022-10-15,Sydney Opera House,"Sydney, Australia",5776,13,23,Concert,4.2,4159,4650,0.72,54,1,Friday,Summer,15.1,0.31,12.19,14.42,8.07,23.37
+40,2022-11-15,Wembley Stadium,"London, UK",90000,12,26,Concert,3.9,40697,39579,0.45,143,1,Monday,Winter,6.2,0.72,8.9,4.78,6.32,18.34
+41,2022-11-19,Madison Square Garden,"New York, USA",20000,15,16,Sports Game,2.7,11517,12886,0.58,91,1,Friday,Fall,9.9,0.01,12.98,12.34,7.12,13.73
+42,2022-11-22,Rod Laver Arena,"Melbourne, Australia",15000,7,11,Theater,3.8,7351,7874,0.49,136,0,Friday,Summer,17.7,0.08,10.12,14.33,7.24,10.45
+43,2022-11-27,Rod Laver Arena,"Melbourne, Australia",15000,7,11,Sports Game,5.5,6664,6771,0.44,55,1,Tuesday,Winter,20.2,0.63,20.97,15.27,11.02,24.5
+44,2022-11-30,Accor Arena,"Paris, France",20300,8,49,Theater,5.1,19087,19849,0.94,88,0,Saturday,Winter,33.0,0.9,10.16,13.06,9.69,19.85
+45,2022-12-02,Tokyo Dome,"Tokyo, Japan",55000,5,44,Sports Game,4.9,37155,35569,0.68,107,1,Saturday,Summer,0.4,0.49,16.11,14.25,8.39,13.95
+46,2022-12-07,Madison Square Garden,"New York, USA",20000,15,16,Concert,4.4,19069,20000,0.95,148,1,Sunday,Spring,27.3,0.15,14.48,15.98,12.45,14.96
+47,2022-12-27,Madison Square Garden,"New York, USA",20000,15,16,Concert,3.8,19960,20000,1.0,129,1,Thursday,Winter,4.7,0.62,13.39,5.9,9.6,12.32
+48,2022-12-29,Barclays Center,"Brooklyn, USA",19000,15,15,Sports Game,4.5,13979,11923,0.74,49,1,Tuesday,Fall,22.1,0.09,10.07,13.65,6.95,25.78
+49,2023-01-08,O2 Arena,"London, UK",20000,17,17,Sports Game,5.4,11078,11590,0.55,84,1,Tuesday,Summer,10.8,0.2,11.82,18.74,7.59,18.93
+50,2023-01-25,Barclays Center,"Brooklyn, USA",19000,15,15,Sports Game,4.4,17154,19000,0.9,44,1,Thursday,Winter,19.7,0.62,20.99,15.14,10.43,31.67
+51,2023-02-08,Rod Laver Arena,"Melbourne, Australia",15000,7,11,Sports Game,3.1,12008,13116,0.8,122,1,Saturday,Fall,27.2,0.44,17.34,11.48,8.12,21.17
+52,2023-02-12,Sydney Opera House,"Sydney, Australia",5776,13,23,Sports Game,3.8,4205,3807,0.73,107,1,Monday,Winter,30.9,0.97,16.5,12.52,5.44,11.89
+53,2023-02-13,Accor Arena,"Paris, France",20300,8,49,Concert,3.9,16879,15503,0.83,139,1,Thursday,Spring,41.4,1.0,12.64,9.42,10.14,14.05
+54,2023-02-16,Accor Arena,"Paris, France",20300,8,49,Concert,4.2,18623,20300,0.92,148,1,Friday,Fall,3.0,0.46,10.83,11.84,10.53,15.66
+55,2023-02-21,Wembley Stadium,"London, UK",90000,12,26,Theater,3.2,72612,74043,0.81,107,0,Tuesday,Fall,23.4,0.88,12.38,13.81,11.73,18.17
+56,2023-03-09,Madison Square Garden,"New York, USA",20000,15,16,Theater,4.8,17721,19672,0.89,81,1,Wednesday,Spring,10.6,0.51,15.62,14.24,10.76,16.88
+57,2023-03-14,Staples Center,"Los Angeles, USA",20000,13,45,Theater,3.0,8953,7840,0.45,86,1,Thursday,Fall,14.2,0.23,9.52,8.49,7.37,17.14
+58,2023-03-15,Rod Laver Arena,"Melbourne, Australia",15000,7,11,Concert,2.5,8213,7376,0.55,65,1,Saturday,Summer,14.1,0.17,10.89,8.05,8.76,20.26
+59,2023-03-24,Barclays Center,"Brooklyn, USA",19000,15,15,Theater,4.1,9543,8297,0.5,34,1,Monday,Summer,14.0,0.68,11.46,11.03,7.33,23.78
+60,2023-04-02,Mercedes-Benz Arena,"Berlin, Germany",17000,5,13,Theater,4.6,11140,10625,0.66,69,0,Sunday,Spring,22.2,0.44,14.04,14.61,10.98,18.18
+61,2023-07-04,Wembley Stadium,"London, UK",90000,12,26,Concert,3.3,87338,90000,0.97,58,0,Tuesday,Summer,3.9,0.16,12.04,16.19,8.93,14.66
+62,2023-08-12,Rod Laver Arena,"Melbourne, Australia",15000,7,11,Concert,3.5,8621,8910,0.57,105,1,Saturday,Summer,-4.1,0.14,13.1,15.73,9.8,18.26
+63,2023-04-27,Sydney Opera House,"Sydney, Australia",5776,13,23,Theater,4.1,2901,2522,0.5,107,0,Thursday,Spring,9.0,0.1,7.98,14.36,9.25,15.59
+64,2023-05-04,Rod Laver Arena,"Melbourne, Australia",15000,7,11,Sports Game,3.9,7663,8742,0.51,58,1,Thursday,Spring,-4.6,0.78,22.58,20.78,9.48,25.21
+65,2024-04-24,Madison Square Garden,"New York, USA",20000,15,16,Concert,3.0,14512,12948,0.73,119,1,Wednesday,Spring,20.8,0.73,15.19,14.16,9.45,12.67
+66,2023-12-16,Staples Center,"Los Angeles, USA",20000,13,45,Concert,4.6,15650,17467,0.78,41,1,Saturday,Winter,3.0,0.47,11.59,17.36,6.02,26.71
+67,2024-08-25,Barclays Center,"Brooklyn, USA",19000,15,15,Sports Game,2.1,8829,7587,0.46,133,0,Sunday,Summer,0.8,0.51,17.07,14.46,9.31,26.18
+68,2024-10-05,Accor Arena,"Paris, France",20300,8,49,Concert,4.8,10392,11615,0.51,100,0,Saturday,Fall,18.3,0.54,13.27,15.63,9.04,12.31
+69,2024-06-20,O2 Arena,"London, UK",20000,17,17,Concert,3.5,10665,9448,0.53,114,0,Thursday,Summer,19.5,0.32,10.16,16.53,9.18,15.95
+70,2024-06-16,Sydney Opera House,"Sydney, Australia",5776,13,23,Concert,2.2,3276,3677,0.57,78,0,Sunday,Summer,39.6,0.24,11.99,8.48,12.54,13.05
+71,2024-03-07,Staples Center,"Los Angeles, USA",20000,13,45,Concert,4.2,14429,12655,0.72,115,0,Thursday,Spring,10.1,0.19,12.36,13.11,8.53,8.0
+72,2023-06-30,Tokyo Dome,"Tokyo, Japan",55000,5,44,Theater,5.3,26538,25272,0.48,123,0,Friday,Summer,30.5,0.11,14.13,13.27,9.06,27.27
+73,2023-11-16,Accor Arena,"Paris, France",20300,8,49,Sports Game,3.2,12373,13211,0.61,148,1,Thursday,Fall,21.2,0.08,24.54,12.04,8.15,24.07
+74,2024-01-13,Madison Square Garden,"New York, USA",20000,15,16,Concert,3.1,16957,17718,0.85,135,0,Saturday,Winter,22.9,0.85,11.57,19.08,10.07,13.76
+75,2024-03-16,O2 Arena,"London, UK",20000,17,17,Concert,5.1,15573,16950,0.78,146,1,Saturday,Spring,42.3,0.49,12.13,19.32,9.26,13.21
+76,2024-02-01,Mercedes-Benz Arena,"Berlin, Germany",17000,5,13,Sports Game,5.4,15500,14544,0.91,143,1,Thursday,Winter,14.3,0.39,25.73,24.56,8.17,21.72
+77,2024-05-28,Tokyo Dome,"Tokyo, Japan",55000,5,44,Concert,4.2,54671,48767,0.99,125,1,Tuesday,Spring,25.6,0.74,17.21,18.24,12.57,18.41
+78,2024-03-23,Accor Arena,"Paris, France",20300,8,49,Theater,4.8,16036,17007,0.79,81,0,Saturday,Spring,53.5,0.8,11.0,16.44,12.71,11.09
+79,2024-03-19,Tokyo Dome,"Tokyo, photoshop Japan",55000,5,44,Theater,3.0,41497,35652,0.75,93,0,Tuesday,Spring,6.1,0.52,16.3,11.26,9.6,25.24
+80,2023-08-03,O2 Arena,"London, UK",20000,17,17,Concert,4.5,19710,19806,0.99,110,0,Thursday,Summer,21.3,0.32,10.33,21.24,5.97,13.65
+81,2024-09-09,Accor Arena,"Paris, France",20300,8,49,Sports Game,2.5,11167,11331,0.55,106,1,Monday,Fall,24.5,0.28,23.12,19.78,9.33,18.17
+82,2024-04-16,Madison Square Garden,"New York, USA",20000,15,16,Theater,3.7,9174,9150,0.46,122,0,Tuesday,Spring,22.7,0.47,7.55,14.41,14.02,8.0
+83,2023-08-29,Rod Laver Arena,"Melbourne, Australia",15000,7,11,Sports Game,3.8,13708,14360,0.91,128,1,Tuesday,Summer,13.0,0.59,21.33,26.25,7.84,26.9
+84,2023-07-25,Tokyo Dome,"Tokyo, Japan",55000,5,44,Sports Game,5.4,51876,47141,0.94,30,1,Tuesday,Summer,20.9,0.07,25.02,16.93,8.43,31.44
+85,2024-05-04,Tokyo Dome,"Tokyo, Japan",55000,5,44,Theater,4.2,50956,54549,0.93,146,0,Saturday,Spring,8.7,0.18,17.85,18.09,8.57,22.58
+86,2023-09-01,Wembley Stadium,"London, UK",90000,12,26,Theater,5.0,59165,63617,0.66,94,0,Friday,Fall,13.0,0.75,12.76,14.78,11.42,15.85
+87,2023-10-03,Tokyo Dome,"Tokyo, Japan",55000,5,44,Theater,4.2,36798,34515,0.67,129,0,Tuesday,Fall,27.0,0.75,12.81,15.44,10.18,23.89
+88,2023-04-02,Mercedes-Benz Arena,"Berlin, Germany",17000,5,13,Concert,3.2,7994,7137,0.47,44,1,Sunday,Spring,13.5,0.76,16.43,20.39,8.48,18.89
+89,2024-01-30,Sydney Opera House,"Sydney, Australia",5776,13,23,Theater,4.8,5593,5776,0.97,40,0,Tuesday,Winter,8.4,0.08,10.56,15.34,8.95,22.52
+90,2023-07-25,O2 Arena,"London, UK",20000,17,17,Theater,2.2,9425,8343,0.47,128,0,Tuesday,Summer,12.1,0.65,11.72,16.3,10.12,16.24
+91,2023-07-24,Mercedes-Benz Arena,"Berlin, Germany",17000,5,13,Theater,2.3,12449,14201,0.73,51,0,Monday,Summer,37.8,0.7,18.08,26.05,7.74,22.86
+92,2024-02-13,Barclays Center,"Brooklyn, USA",19000,15,15,Sports Game,3.6,11628,11919,0.61,57,1,Tuesday,Winter,9.0,0.08,17.05,23.06,7.69,23.29
+93,2023-12-24,Accor Arena,"Paris, France",20300,8,49,Theater,5.3,18668,16121,0.92,113,0,Sunday,Winter,14.3,0.81,14.53,8.74,11.56,17.07
+94,2024-05-28,Rod Laver Arena,"Melbourne, Australia",15000,7,11,Sports Game,4.7,14502,15000,0.97,45,0,Tuesday,Spring,15.5,0.25,19.29,20.31,6.63,31.31
+95,2023-06-08,Barclays Center,"Brooklyn, USA",19000,15,15,Theater,2.4,15255,15347,0.8,59,0,Thursday,Summer,16.1,0.85,14.75,21.29,15.24,11.53
+96,2023-09-29,Madison Square Garden,"New York, USA",20000,15,16,Concert,2.5,8174,7807,0.41,38,1,Friday,Fall,21.9,0.59,11.82,12.27,11.81,18.8
+97,2024-01-14,Sydney Opera House,"Sydney, Australia",5776,13,23,Sports Game,5.0,5601,5007,0.97,115,1,Sunday,Winter,14.9,0.26,19.93,14.16,9.74,13.9
+98,2023-09-25,Barclays Center,"Brooklyn, USA",19000,15,15,Theater,2.6,11540,12913,0.61,90,0,Monday,Fall,5.6,0.47,6.75,15.06,7.78,9.03
+99,2024-03-01,Accor Arena,"Paris, France",20300,8,49,Concert,3.8,16529,14244,0.81,42,0,Friday,Spring,20.1,0.08,17.08,13.27,7.04,22.7
+100,2024-07-07,Accor Arena,"Paris, France",20300,8,49,Sports Game,4.2,12613,12471,0.62,140,1,Sunday,Summer,-8.0,0.75,23.4,13.75,12.46,25.37
