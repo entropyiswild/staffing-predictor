@@ -6,7 +6,7 @@ st.set_page_config(page_title="Live Events Staffing Predictor", layout="centered
 # ↑ sets browser tab title and centers for phones
 
 st.title("Global Live Events Staffing & Cost Predictor")
-st.mardown("Fill in the form → get exact hours + USD costs instantly")
+st.markdown("Fill in the form → get exact hours + USD costs instantly")
 # ↑ headline and instructions; what users see first
 
 # ──────────────────────────────────────────────────────
@@ -105,6 +105,7 @@ if st.button("Calculate Staffing & Costs"):
 
 	
 	
+
 
 
 
