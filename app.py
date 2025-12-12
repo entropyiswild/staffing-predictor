@@ -15,8 +15,8 @@ st.markdown("Fill in the form → get exact hours + USD costs instantly")
 # ──────────────────────────────────────────────────────
 @st.cache_resource					# Streamlit setup magic
 def load_all():
-	models = joblib.load("models/my_staffing_models.pkl")	# opens trained brains/models
-	features = joblib.load("models/my_feature_columns.pkl")	# opens list of expected columns
+	models = joblib.load("models/my_staffing_models_20251209.pkl")	# opens trained brains/models
+	features = joblib.load("models/my_feature_columns_20251209.pkl")	# opens list of expected columns
 	venues = pd.read_csv("Venue Database.csv")		# venue info (capacity, entrances, ect.)
 	rates = pd.read_csv("Local Rates Database.csv")		# local hourly wages
 	return models, features, venues, rates
@@ -104,4 +104,5 @@ if st.button("Calculate Staffing & Costs"):
 		"Cost (USD)": [costs[p] for p in models] + [total_c]
 	})
 	st.success("Prediction complete!")
+
 	st.table(result)
